@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 12px 15px;
+    align-items: center;
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+}
+
+header a {
+    color: rgb(0,0,0);
+    text-decoration: inherit;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 5px;
+    padding: 10px;
+    float: left;
+}
+
+nav ul .text:hover {
+    text-decoration: underline;
+}
+
+nav ul .item:hover {
+    background-color: #F0F0F0;
+    border-radius: 80%;
+}
+
+
+/* Section */
+
+img {
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.Barra {
+    margin: 20px;
+    font-weight: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.Barra .Rectangulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    border: 1.5px solid #EFF0F2;
+    border-radius: 30px;
+    width: 580px;
+    height: 45px;
+}
+
+.Barra .Rectangulo input {
+    width: 450px;
+    height: 30px;
+    border: none;
+    background-color: none;
+}
+
+.input:focus, .input:active {
+    outline: 0;
+}
+
+.Barra .Rectangulo:hover {
+    box-shadow: 0px 0px 2px 2px #dedee0;
+}
+
+
+.Buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.Button {
+    margin: 5px 4px;
+    height: 36px;
+    padding: 0px 16px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, Sans-Serif;
+    background-color: #F8F9FA;
+    color: #500050;
+}
+
+.Button:hover {
+    border: 1px solid #FFDFDF;
+}
+
+.Button a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
+
+.Button:active {
+    border: 1px solid blue;
+}
+
+.Text p{
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    margin: 20px 0px;
+    text-align: center;
+    color: black;
+}
+
+.Text a {
+    text-decoration: none;
+    color: black;
+}
+
+.Relleno {
+    margin: 65px 0px;
+}
+
+/* Footer */
+
+footer {
+    color: #70757a;
+    font-family: Arial, Sans-Serif;
+    font-size: 14px;
+    background-color: #F2F2F2;
+   
+}
+
+footer .Country {
+    padding: 15px 30px 12px;
+    font-size: 15px;
+}
+
+hr {
+    color: black;
+}
+
+.Nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+    height: 6vh;
+}
+
+.Nav ul {
+    justify-content: center;
+}
+
+.Nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.Nav ul li a{
+    text-decoration: none;
+    color: #70757a;
+}
+
+.Nav ul li a:hover{
+    text-decoration: underline;
+    color: #70757a;
+}
