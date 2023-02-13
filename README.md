@@ -1,3 +1,5 @@
+![Visitantes](https://visitor-badge.glitch.me/badge?page_id=juanma010901.Google_Clone&left_text=Visitantes)
+
 # Google_Clone 
 
 > El siguiente proyecto buscaba replicar la página de inicio de Google utilizando HTML y CSS
